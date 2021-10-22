@@ -24,7 +24,7 @@ class LoginActivity : AppCompatActivity(), LoginContract.View {
         setContentView(binding.root)
 
         initPresenter()
-        initView()
+        bindView()
     }
 
     override fun onDestroy() {
@@ -41,10 +41,11 @@ class LoginActivity : AppCompatActivity(), LoginContract.View {
         loginPresenter.bindView(this)
     }
 
-    private fun initView() {
+    private fun bindView() {
         binding.loginButton.setOnClickListener {
             val userEmail = binding.emailEditText.text.toString().trim()
             val userPassword = binding.passwordEditText.text.toString().trim()
+
             // Presenter에 전달
             loginPresenter.requestLogin(userEmail, userPassword)
         }
@@ -84,7 +85,9 @@ class LoginActivity : AppCompatActivity(), LoginContract.View {
     }
 
     override fun moveToUserInfo() {
-        val intent = Intent(this, SignUpActivity::class.java)
+        Toast.makeText(this, "로그인 성공", Toast.LENGTH_LONG).show()
+
+        val intent = Intent(this, InfoActivity::class.java)
         startActivity(intent)
         finish()
     }
