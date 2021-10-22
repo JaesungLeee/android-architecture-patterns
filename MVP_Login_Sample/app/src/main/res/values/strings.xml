@@ -11,4 +11,5 @@
     <string name="signup_password_editText_hint">비밀번호</string>
     <string name="signup_userName_editText_hint">사용자 이름</string>
     <string name="logout_button_text">로그아웃</string>
+    <string name="name_textView_text">Name :</string>
 </resources>
