@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Jaesung\\Documents\\GitRepo\\android-architecture-patterns\\MVP_Login_Sample\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_info.xml",
+        "source": "C:\\Users\\Jaesung\\Documents\\GitRepo\\android-architecture-patterns\\MVP_Login_Sample\\app\\src\\main\\res\\layout\\activity_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaesung\\Documents\\GitRepo\\android-architecture-patterns\\MVP_Login_Sample\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sign_up.xml",
+        "source": "C:\\Users\\Jaesung\\Documents\\GitRepo\\android-architecture-patterns\\MVP_Login_Sample\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jaesung\\Documents\\GitRepo\\android-architecture-patterns\\MVP_Login_Sample\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "C:\\Users\\Jaesung\\Documents\\GitRepo\\android-architecture-patterns\\MVP_Login_Sample\\app\\src\\main\\res\\layout\\activity_login.xml"
+    }
+]

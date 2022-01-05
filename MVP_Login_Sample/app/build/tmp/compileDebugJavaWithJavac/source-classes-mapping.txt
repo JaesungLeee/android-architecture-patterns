@@ -1,0 +1,8 @@
+com/jslee/mvp_login_sample/BuildConfig.java
+ com.jslee.mvp_login_sample.BuildConfig
+com/jslee/mvp_login_sample/databinding/ActivityLoginBinding.java
+ com.jslee.mvp_login_sample.databinding.ActivityLoginBinding
+com/jslee/mvp_login_sample/databinding/ActivityInfoBinding.java
+ com.jslee.mvp_login_sample.databinding.ActivityInfoBinding
+com/jslee/mvp_login_sample/databinding/ActivitySignUpBinding.java
+ com.jslee.mvp_login_sample.databinding.ActivitySignUpBinding

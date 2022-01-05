@@ -1,0 +1,63 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.jslee.mvp_login_sample"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\Jaesung\Documents\GitRepo\android-architecture-patterns\MVP_Login_Sample\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\Jaesung\Documents\GitRepo\android-architecture-patterns\MVP_Login_Sample\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\Jaesung\Documents\GitRepo\android-architecture-patterns\MVP_Login_Sample\app\src\main\AndroidManifest.xml:5:5-27:19
+12        android:allowBackup="true"
+12-->C:\Users\Jaesung\Documents\GitRepo\android-architecture-patterns\MVP_Login_Sample\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.6.0] C:\Users\Jaesung\.gradle\caches\transforms-3\ae11ec18c7a21e68532c797ea4139dfe\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:extractNativeLibs="false"
+16        android:icon="@mipmap/ic_launcher"
+16-->C:\Users\Jaesung\Documents\GitRepo\android-architecture-patterns\MVP_Login_Sample\app\src\main\AndroidManifest.xml:7:9-43
+17        android:label="@string/app_name"
+17-->C:\Users\Jaesung\Documents\GitRepo\android-architecture-patterns\MVP_Login_Sample\app\src\main\AndroidManifest.xml:8:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->C:\Users\Jaesung\Documents\GitRepo\android-architecture-patterns\MVP_Login_Sample\app\src\main\AndroidManifest.xml:9:9-54
+19        android:supportsRtl="true"
+19-->C:\Users\Jaesung\Documents\GitRepo\android-architecture-patterns\MVP_Login_Sample\app\src\main\AndroidManifest.xml:10:9-35
+20        android:testOnly="true"
+21        android:theme="@style/Theme.MVP_Login_Sample" >
+21-->C:\Users\Jaesung\Documents\GitRepo\android-architecture-patterns\MVP_Login_Sample\app\src\main\AndroidManifest.xml:11:9-54
+22        <activity
+22-->C:\Users\Jaesung\Documents\GitRepo\android-architecture-patterns\MVP_Login_Sample\app\src\main\AndroidManifest.xml:12:9-14:39
+23            android:name="com.jslee.mvp_login_sample.View.SignUpActivity"
+23-->C:\Users\Jaesung\Documents\GitRepo\android-architecture-patterns\MVP_Login_Sample\app\src\main\AndroidManifest.xml:13:13-48
+24            android:exported="true" />
+24-->C:\Users\Jaesung\Documents\GitRepo\android-architecture-patterns\MVP_Login_Sample\app\src\main\AndroidManifest.xml:14:13-36
+25        <activity
+25-->C:\Users\Jaesung\Documents\GitRepo\android-architecture-patterns\MVP_Login_Sample\app\src\main\AndroidManifest.xml:15:9-17:39
+26            android:name="com.jslee.mvp_login_sample.View.InfoActivity"
+26-->C:\Users\Jaesung\Documents\GitRepo\android-architecture-patterns\MVP_Login_Sample\app\src\main\AndroidManifest.xml:16:13-46
+27            android:exported="true" />
+27-->C:\Users\Jaesung\Documents\GitRepo\android-architecture-patterns\MVP_Login_Sample\app\src\main\AndroidManifest.xml:17:13-36
+28        <activity
+28-->C:\Users\Jaesung\Documents\GitRepo\android-architecture-patterns\MVP_Login_Sample\app\src\main\AndroidManifest.xml:18:9-26:20
+29            android:name="com.jslee.mvp_login_sample.View.LoginActivity"
+29-->C:\Users\Jaesung\Documents\GitRepo\android-architecture-patterns\MVP_Login_Sample\app\src\main\AndroidManifest.xml:19:13-47
+30            android:exported="true" >
+30-->C:\Users\Jaesung\Documents\GitRepo\android-architecture-patterns\MVP_Login_Sample\app\src\main\AndroidManifest.xml:20:13-36
+31            <intent-filter>
+31-->C:\Users\Jaesung\Documents\GitRepo\android-architecture-patterns\MVP_Login_Sample\app\src\main\AndroidManifest.xml:21:13-25:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\Jaesung\Documents\GitRepo\android-architecture-patterns\MVP_Login_Sample\app\src\main\AndroidManifest.xml:22:17-69
+32-->C:\Users\Jaesung\Documents\GitRepo\android-architecture-patterns\MVP_Login_Sample\app\src\main\AndroidManifest.xml:22:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Users\Jaesung\Documents\GitRepo\android-architecture-patterns\MVP_Login_Sample\app\src\main\AndroidManifest.xml:24:17-77
+34-->C:\Users\Jaesung\Documents\GitRepo\android-architecture-patterns\MVP_Login_Sample\app\src\main\AndroidManifest.xml:24:27-74
+35            </intent-filter>
+36        </activity>
+37    </application>
+38
+39</manifest>
