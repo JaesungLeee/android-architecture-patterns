@@ -1,20 +1,12 @@
-package com.jslee.mvvm_example.data.local
+package com.jslee.mvvm_example.data
 
 import androidx.lifecycle.LiveData
-import androidx.room.*
-import androidx.room.OnConflictStrategy
 import com.jslee.mvvm_example.data.local.entity.ShoppingItem
 
-
-@Dao
-interface ShoppingDao {
-
-    @Query("SELECT * FROM shopping_items")
+interface ShoppingRepository {
     fun getAllItems(): LiveData<List<ShoppingItem>>
 
-    @Update(onConflict = OnConflictStrategy.REPLACE)
     suspend fun updateAndInsertItems(item: ShoppingItem)
 
-    @Delete
     suspend fun deleteItems(item: ShoppingItem)
 }
