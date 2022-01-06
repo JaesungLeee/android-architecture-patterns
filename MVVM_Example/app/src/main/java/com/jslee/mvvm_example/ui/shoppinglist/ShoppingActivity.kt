@@ -7,15 +7,18 @@ import androidx.lifecycle.ViewModelProviders
 import com.jslee.mvvm_example.R
 import com.jslee.mvvm_example.data.ShoppingRepositoryImpl
 import com.jslee.mvvm_example.data.local.ShoppingDatabase
+import com.jslee.mvvm_example.databinding.ActivityShoppingBinding
 
 class ShoppingActivity : AppCompatActivity() {
     private lateinit var database: ShoppingDatabase
     private lateinit var repository: ShoppingRepositoryImpl
     private lateinit var viewModelFactory: ShoppingViewModelFactory
 
+    private val binding: ActivityShoppingBinding by lazy { ActivityShoppingBinding.inflate(layoutInflater) }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_shopping)
+        setContentView(binding.root)
 
 
         database = ShoppingDatabase(this)
